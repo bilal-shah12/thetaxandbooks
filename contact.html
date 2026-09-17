@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — The Tax&Books | SJA Consultancy</title>
+  <meta name="description" content="Get in touch with The Tax&Books by SJA Consultancy — business consultancy, cloud ERP and AI. Book a free consultation.">
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">Contact us</span>
+      <h1>Let's build your business, better</h1>
+      <p class="lead">Tell us about your goals and our team will map the right consultancy,
+        ERP or AI solution for you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="card reveal">
+        <h3 style="margin-bottom:1rem">Send us a message</h3>
+        <form class="form" onsubmit="event.preventDefault(); this.reset(); document.getElementById('ok').style.display='flex';">
+          <div class="row">
+            <div><label>Full name</label><input type="text" required placeholder="Your name"></div>
+            <div><label>Company</label><input type="text" placeholder="Company name"></div>
+          </div>
+          <div class="row">
+            <div><label>Email</label><input type="email" required placeholder="you@company.com"></div>
+            <div><label>Phone</label><input type="tel" placeholder="+92 ..."></div>
+          </div>
+          <div>
+            <label>I'm interested in</label>
+            <select>
+              <option>Business Consultancy Services</option>
+              <option>Tax&Books ERP</option>
+              <option>Consult AI</option>
+              <option>Corporate Training</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea rows="4" placeholder="How can we help?"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg" type="submit">Send message</button>
+          <div id="ok" style="display:none;align-items:center;gap:10px;color:var(--green-dark);font-weight:700">
+            ✓ Thanks! Your message has been recorded. We'll be in touch shortly.
+          </div>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="info-item"><div class="ic-tile" style="margin:0"><svg class="ic"><use href="#i-mail"></use></svg></div>
+          <div><b>Email</b><br><a href="mailto:info@sjaconsult.pk">info@sjaconsult.pk</a></div></div>
+        <div class="info-item"><div class="ic-tile" style="margin:0"><svg class="ic"><use href="#i-phone"></use></svg></div>
+          <div><b>Phone</b><br><a href="tel:+923218476753">+92 321 8476753</a><br><a href="tel:+923214250013">+92 321 4250013</a></div></div>
+        <div class="info-item"><div class="ic-tile" style="margin:0"><svg class="ic"><use href="#i-globe"></use></svg></div>
+          <div><b>Website</b><br><a href="https://www.sjaconsult.pk">www.sjaconsult.pk</a></div></div>
+        <div class="info-item"><div class="ic-tile" style="margin:0"><svg class="ic"><use href="#i-pin"></use></svg></div>
+          <div><b>Location</b><br>Lahore, Pakistan</div></div>
+
+        <div class="card" style="background:var(--navy);color:#fff;border:0;margin-top:14px">
+          <h3 style="color:#fff">Book a free consultation</h3>
+          <p style="color:#c7d3e6">Get a no-obligation assessment of your accounting, tax and
+          ERP needs from our credentialed team.</p>
+          <a class="btn btn-primary" href="mailto:info@sjaconsult.pk">Request a call →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="main.js?v=5"></script>
+</body>
+</html>
